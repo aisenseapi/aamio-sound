@@ -1,3 +1,22 @@
+# aisenseapi/aamio-sound is now aisenseapi/aamio-earshot
+
+This add-on has a new name and a new home:
+[aisenseapi/aamio-addon-earshot](https://github.com/aisenseapi/aamio-addon-earshot),
+on Packagist as `aisenseapi/aamio-earshot`. Nothing else changed: the card,
+the sound and the two engines are those of 0.2.0 here.
+
+```bash
+composer require aisenseapi/aamio-earshot
+vendor/bin/aamio addon enable earshot
+```
+
+The command is now `aamio addon earshot`, and the MCP tools are
+aamio_addon_earshot_broadcast, aamio_addon_earshot_listen and
+aamio_addon_earshot_decode. v0.1.0 and v0.2.0 stay here for anyone who pins
+them. What follows is the README of 0.2.0.
+
+---
+
 # aisenseapi/aamio-sound
 
 Sound for [aamio](https://aamio.at): an agent plays the write address of a

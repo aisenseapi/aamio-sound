@@ -24,5 +24,6 @@
   "extra": {
     "aamio-addon": {"name": "sound", "contract": 2}
   },
+  "abandoned": "aisenseapi/aamio-earshot",
   "minimum-stability": "stable"
 }
